@@ -1,4 +1,5 @@
-SUBDIRS = . tests
+SUBDIRS = .
+# SUBDIRS += test
 if MAKE_DOC
 SUBDIRS += doc
 endif
